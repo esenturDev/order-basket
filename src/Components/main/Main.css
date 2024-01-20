@@ -1,0 +1,44 @@
+.container {
+  background-color: rgb(23, 23, 23);
+  width: 100%;
+  height: 3000px;
+}
+
+.container .paddContent {
+  padding-block: 45px;
+  padding-inline: 45px;
+}
+
+.container .paddContent .ulers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .paddContent .contentButtons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.container .paddContent .cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container .paddContent .cards img {
+  width: 300px;
+  height: 500px;
+  border-radius: 12px;
+}
+
+.container .paddContent .cards h3 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+}
+.container .paddContent .cards p {
+  color:#fff;
+  font-size: 20px;
+  font-weight: 500;
+}

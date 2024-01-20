@@ -1,0 +1,30 @@
+.renderCard {
+  border: 6px solid black;
+  border-radius: 15px;
+  background-color: rgb(209, 175, 53);
+  width: 300px;
+  height: 600;
+}
+
+.renderCard .photo {
+  width: 300px;
+  height: 450px;
+  border-radius: 13px;
+}
+
+.renderCard .name {
+  color: #0b0b0b;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.renderCard .gh {
+  font-size: 23px;
+  font-weight: 400;
+  color: #0b0b0b;
+}
+
+.renderCard .deleteDiv {
+  position: relative;
+  left: 400px;
+}
